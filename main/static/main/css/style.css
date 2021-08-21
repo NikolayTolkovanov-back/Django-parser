@@ -1,0 +1,110 @@
+:root {
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+.header-content {
+  margin-top: 2rem;
+}
+.header-content-img {
+  width: 5rem;
+}
+.header-content h1 {
+  margin-left: 1rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.main {
+  margin-top: 10rem;
+}
+.main-content-wrap-block {
+  padding: 6rem 7rem;
+  height: 37rem;
+  background: #e7e7e7;
+  border-radius: 3rem;
+  color: #414141;
+}
+.main-content-wrap-block h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.main-content-wrap-block form {
+  margin: 5rem 0;
+}
+.main-content-wrap-block form input {
+  text-align: center;
+  outline: none;
+  min-width: 75%;
+  height: 5rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.4rem 0;
+  font-size: 1.5rem;
+}
+.main-content-wrap-block .btn {
+  display: block;
+  margin: 6rem auto;
+  outline: none;
+  border: 0.3rem solid #414141;
+  border-radius: 1rem;
+  padding: 1rem 3.6rem;
+  font-size: 1.4rem;
+}
+.footer {
+  margin-top: 5rem;
+}
+.footer p {
+  font-size: 1.4rem;
+  color: rgba(64, 64, 64, 0.5);
+}
+.section {
+  margin-top: 1rem;
+}
+.section h2 {
+  font-size: 2.5rem;
+  color: #414141;
+}
+.result {
+  margin-top: 2rem;
+}
+.result-wrap {
+  margin-top: 2rem;
+}
+.result-wrap-block {
+  margin-bottom: 2rem;
+  padding: 2rem 7rem 4rem 7rem;
+  background: #e7e7e7;
+  border-radius: 3rem;
+  color: #414141;
+}
+.result-wrap-block h3 {
+  margin: 3rem 0 1rem 0;
+}
+.result-wrap-block a {
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+}
+.result-wrap-block p {
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+}
+.result-wrap .btn-page {
+  display: block;
+  margin: 0 auto;
+  border: 0.3rem solid #414141;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+}
